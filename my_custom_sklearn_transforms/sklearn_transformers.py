@@ -1,5 +1,4 @@
 from sklearn.base import BaseEstimator, TransformerMixin
-import pandas
 # All sklearn Transforms must have the `transform` and `fit` methods
 class DropColumns(BaseEstimator, TransformerMixin):
     def __init__(self, columns):
